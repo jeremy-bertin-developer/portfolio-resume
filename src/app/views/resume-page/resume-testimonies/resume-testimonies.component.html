@@ -1,0 +1,54 @@
+<section id="testimonies">
+  <div class="container-lg">
+    <div class="row text-center">
+      <div class="col">
+        <app-resume-title [title]="title" [source]="source"></app-resume-title>
+      </div>
+    </div>
+    <div class="row text-left mt-3">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-4">
+        <div class="card text-left border-0 shadow mb-4 card-resume-testimonies">
+          <div class="card-body">
+            <img class="border rounded-circle float-right border-0 shadow" width="60px" [src]="'../../../../assets/images/TAG.logo.png'" />
+            <h6 class="text-dark card-subtitle mb-2"><strong>Nathalie Köck</strong><br /></h6>
+            <p class="card-text"><em>Learning Program Manager - Talent Garden Innovation School Vienna</em><br /></p>
+            <p class="text-muted card-text">
+              With great pleasure we received the application of Mr. Jeremy Bertin for our 3-month full-time CodeMaster Bootcamp at the
+              Talent Garden Innovation School and we accepted him to join the next class for different reasons. First of all, Mr. Bertin
+              showed huge motivation during the personal application interview and he convinced me of his determination and his desire to
+              become a programmer. Motivation and ...<br />
+            </p>
+            <a
+              class="card-link"
+              [href]="'../../../../assets/docs/Recommendation Letter for Jeremy Bertin_english.pdf'"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Read the recommandation letter</a
+            >
+          </div>
+        </div>
+      </div>
+      <ng-container *ngFor="let card of resumeCardTestimonies">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-4">
+          <div class="card text-left border-0 shadow card-resume-testimonies">
+            <div class="card-body">
+              <img class="border rounded-circle float-right border-0 shadow" width="100px" [src]="card.imgSrc" />
+              <h6 class="text-dark card-subtitle mb-2">
+                <strong>{{ card.headerTitle }}</strong
+                ><br />
+              </h6>
+              <p class="card-text">
+                <em>{{ card.paragraphOne }}</em
+                ><br />
+              </p>
+              <p class="text-muted card-text">"{{ card.paragraphTwo }}"<br /></p>
+              <ng-container *ngIf="card.link">
+                <a class="card-link" [href]="card.link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              </ng-container>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</section>

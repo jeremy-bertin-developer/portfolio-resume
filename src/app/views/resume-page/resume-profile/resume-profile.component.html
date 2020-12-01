@@ -1,0 +1,31 @@
+<section [id]="sectionId">
+  <div class="container-lg">
+    <div class="row text-center">
+      <div class="col">
+        <app-resume-title [title]="title" [source]="source"></app-resume-title>
+      </div>
+    </div>
+    <div class="row text-center mt-3">
+      <div class="col-12">
+        <div class="card text-center border-0 bg-transparent">
+          <div class="card-body">
+            <h6 class="text-dark card-subtitle mb-2"><strong>In Austria since April 2014</strong></h6>
+            <p class="card-text"></p>
+            <ng-container *ngFor="let profileSkill of profileSkills">
+              <p class="card-text">
+                <em>{{ profileSkill.paragraph }}</em>
+              </p>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+      <ng-container *ngFor="let profileAvatar of profileAvatars">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+          <div class="card text-center border-0 mt-2 bg-transparent">
+            <div class="card-body"><img class="img-fluid profile-avatars" [src]="profileAvatar.src" /></div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,30 @@
+<app-titles [titleName]="'Projects'"></app-titles>
+
+<div class="row d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">
+  <div class="col">
+    <div class="btn-group d-flex justify-content-center align-items-center" role="group">
+      <ng-container *ngFor="let logo of logosLanguage">
+        <app-logo-languages class="logo" [src]="logo.src" [alt]="logo.alt" (emitShowProject)="showProject(logo.type)"></app-logo-languages>
+      </ng-container>
+    </div>
+  </div>
+  <div class="col-4 offset-4 text-center">
+    <button class="btn text-center mt-3" type="button" (click)="showAllProjects()">Show All Projects</button>
+  </div>
+</div>
+
+<div class="row">
+  <ng-container *ngFor="let project of projects; let i = index">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center">
+      <div id="projects{{ i }}" class="card mt-4 shadow-lg" [class]="project.class">
+        <div class="card-body card-body-project d-flex justify-content-center align-items-center">
+          <div
+            class="card-round bg-light border rounded-circle border-light shadow round-card-project d-flex justify-content-center align-items-center"
+          >
+            <h5>{{ project.title }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>

@@ -1,0 +1,47 @@
+<section [id]="sectionId">
+  <div class="container-lg">
+    <div class="row text-center">
+      <div class="col">
+        <app-resume-title [title]="title" [source]="source"></app-resume-title>
+      </div>
+    </div>
+    <div class="row text-left mt-3">
+      <div class="col-lg-6 col-xl-6">
+        <ng-container *ngFor="let card of cardResumeProfXpColLeft">
+          <div [class]="card.cardClass">
+            <div class="card-body">
+              <img class="float-right" [src]="card.imgSrc" />
+              <h6 class="text-dark card-subtitle mb-2">
+                <strong>{{ card.header }}</strong
+                ><br />
+              </h6>
+              <p class="card-text">
+                <em>{{ card.paragraphItalic }}</em>
+              </p>
+              <p class="text-muted card-text">{{ card.paragraph }}<br /></p>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+
+      <div class="col-lg-6 col-xl-6">
+        <div class="card d-none d-sm-none d-md-none d-lg-block d-xl-block border-0 mb-2 bg-transparent" style="height: 50px"></div>
+        <ng-container *ngFor="let card of cardResumeProfXpColRight">
+          <div [class]="card.cardClass">
+            <div class="card-body">
+              <img class="float-right" [src]="card.imgSrc" />
+              <h6 class="text-dark card-subtitle mb-2">
+                <strong>{{ card.header }}</strong
+                ><br />
+              </h6>
+              <p class="card-text">
+                <em>{{ card.paragraphItalic }}</em>
+              </p>
+              <p class="text-muted card-text">{{ card.paragraph }}<br /></p>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</section>

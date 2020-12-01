@@ -1,0 +1,13 @@
+.column-height-40 {
+  height: 40px;
+}
+
+.list-group-item:last-child {
+  margin-top: 10px;
+  text-align: center;
+  border-style: none;
+}
+
+footer {
+  height: 150px;
+}

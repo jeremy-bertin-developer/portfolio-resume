@@ -1,0 +1,25 @@
+<nav class="navbar navbar-dark fixed-top bg-dark off-canvas" data-right-drawer="0" data-open-drawer="1">
+  <div class="container-fluid flex-column">
+    <button class="btn btn-dark drawer-knob" type="button" data-open="drawer"><i class="fas fa-bars"></i></button>
+    <div class="d-flex justify-content-between brand-line">
+      <a class="navbar-brand mb-2" href="#">Jeremy Bertin</a
+      ><button class="btn btn-dark" type="button" data-dismiss="drawer">
+        <span class="sr-only">Toggle Navigation&nbsp;</span><i class="fas fa-times"></i>
+      </button>
+    </div>
+    <ul class="nav navbar-nav flex-column drawer-menu">
+      <ng-container *ngIf="routeSelected === 'PROJECT'">
+        <li class="nav-item mb-2"><a class="nav-link active" (click)="onClickGoToPage('RESUME')">Resume</a></li>
+      </ng-container>
+
+      <ng-container *ngIf="routeSelected === 'RESUME'">
+        <li class="nav-item mb-2"><a class="nav-link active" (click)="onClickGoToPage('PROJECT')">Projects</a></li>
+        <ng-container *ngFor="let link of linksSideNavbar">
+          <li class="nav-item mb-2">
+            <a class="nav-link" (click)="onClickScroll(link.sectionId)">{{ link.linkName }}</a>
+          </li>
+        </ng-container>
+      </ng-container>
+    </ul>
+  </div>
+</nav>

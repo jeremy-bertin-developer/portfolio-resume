@@ -1,0 +1,11 @@
+{
+    "prettier.printWidth": 140,
+    "prettier.singleQuote": true,
+    "prettier.useEditorConfig": false,
+    "prettier.arrowParens": "avoid",
+    "prettier.endOfLine": "auto",
+    "prettier.trailingComma": "none",
+    "editor.formatOnSave": true,
+    "git.ignoreLimitWarning": true,
+    "github.gitAuthentication": false
+}

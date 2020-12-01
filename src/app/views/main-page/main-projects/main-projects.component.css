@@ -1,0 +1,106 @@
+.fade-in {
+  animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fadeOut ease 2s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.logo:hover {
+  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.round-card-project {
+  height: 120px;
+  width: 120px;
+}
+
+.card-project {
+  border-radius: 15px;
+  border-style: none;
+}
+
+.card-project-youtube-clone {
+  background: url('../../../../assets/images/mytube.png') center / cover no-repeat;
+}
+.card-project-random-password {
+  background: url('../../../../assets/images/random-password.png') center / cover no-repeat;
+}
+.card-project-chat-box {
+  background: url('../../../../assets/images/tchat-box.png') center / cover no-repeat;
+}
+.card-project-species {
+  background: url('../../../../assets/images/species-api.png') center / cover no-repeat;
+}
+.card-project-simpsons {
+  background: url('../../../../assets/images/simpsons.png') center / cover no-repeat;
+}
+.card-project-random-group {
+  background: url('../../../../assets/images/random-profile.png') center / cover no-repeat;
+}
+.card-project-unsplash-clone {
+  background: url('../../../../assets/images/clone-unsplash.png') center / cover no-repeat;
+}
+.card-project-snake {
+  background: url('../../../../assets/images/snake-game.png') center / cover no-repeat;
+}
+.card-project-1980 {
+  background: url('../../../../assets/images/1980-house-recordings.png') center / cover no-repeat;
+}
+.card-project-canvas-tag {
+  background: url('../../../../assets/images/canvas-tag.png') center / cover no-repeat;
+}
+.card-project-gogi-burger {
+  background: url('../../../../assets/images/gogi-burger.png') center / cover no-repeat;
+}
+.card-project-laetitia-hypnose {
+  background: url('../../../../assets/images/laetitia-hypnose.png') center / cover no-repeat;
+}
+.card-project-giphy-clone {
+  background: url('../../../../assets/images/giphy-api.png') center / cover no-repeat;
+}
+.card-project-chuck-norris-quotes {
+  background: url('../../../../assets/images/chuck-no.png') center / cover no-repeat;
+}
+.card-project-random-quotes {
+  background: url('../../../../assets/images/random-quotes.png') center / cover no-repeat;
+}
+.card-project-philippe-beaulieu {
+  background: url('../../../../assets/images/philippe-beaulieu.png') center / cover no-repeat;
+}
+.card-project-world-bucket-list {
+  background: url('../../../../assets/images/world-bucket-list.png') center / cover no-repeat;
+}
+.card-project-form {
+  background: url('../../../../assets/images/form_php.png') center / cover no-repeat;
+}
+.card-project-top-five-actresses {
+  background: url('../../../../assets/images/top-5-best-actresses.png') center / cover no-repeat;
+}
+.card-project-travel-agency {
+  background: url('../../../../assets/images/travel-agency.png') center / cover no-repeat;
+}
+.card-project-wanderlust {
+  background: url('../../../../assets/images/wanderlust.png') center / cover no-repeat;
+}
+.card-project-ravenous {
+  background: url('../../../../assets/images/ravenous.png') center / cover no-repeat;
+}

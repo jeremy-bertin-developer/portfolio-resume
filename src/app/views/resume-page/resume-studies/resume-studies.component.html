@@ -1,0 +1,29 @@
+<section id="studies">
+  <div class="container-lg">
+    <div class="row text-center">
+      <div class="col">
+        <app-resume-title [title]="title" [source]="source"></app-resume-title>
+      </div>
+    </div>
+    <div class="row text-left mt-3">
+      <ng-container *ngFor="let card of resumeCardStudies">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <div class="card text-left border-0 shadow mb-4">
+            <div class="card-body">
+              <img class="float-right" width="50px" [src]="card.imgSrc" />
+              <h6 class="text-dark card-subtitle mb-2">
+                <strong>{{ card.headerTitle }}</strong
+                ><br />
+              </h6>
+              <p class="card-text">
+                <em>{{ card.paragraphOne }}</em
+                ><br />
+              </p>
+              <p class="text-muted card-text">{{ card.paragraphTwo }}<br /></p>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</section>

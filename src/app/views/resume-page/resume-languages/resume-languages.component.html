@@ -1,0 +1,21 @@
+<section [id]="sectionId">
+  <div class="container-lg">
+    <div class="row text-center">
+      <div class="col">
+        <app-resume-title [title]="title" [source]="source"></app-resume-title>
+      </div>
+    </div>
+    <div class="row text-left mt-3">
+      <ng-container *ngFor="let card of cardLanguages">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+          <div class="card text-center border-0 mb-4">
+            <div class="card-body">
+              <img class="img-fluid" width="70px" [src]="card.srcImg" />
+              <p class="text-dark card-text mt-3">{{ card.paragraph }}<br /></p>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</section>

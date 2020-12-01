@@ -1,0 +1,15 @@
+.profile-picture {
+    margin: 0 auto;
+    border-style: none;
+    width: 200px;
+  }
+
+  .logo-github {
+    font-size: 60px;
+    color: #24292e;
+  }
+  
+  .logo-linkedin {
+    font-size: 60px;
+    color: #0e76a8;
+  }
