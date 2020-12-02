@@ -4,4 +4,5 @@ export class Project {
   projectType: string[];
   class: string;
   isShown: boolean;
+  link: string;
 }

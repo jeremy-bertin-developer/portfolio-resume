@@ -73,7 +73,8 @@ export class DataBase {
         Constants.PROJECT_TYPE_API
       ],
       class: 'card card-project card-project-youtube-clone',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-dveloper.github.io-react-youtube-clone/'
     },
     {
       alt: 'Picture of an Interface to generate randomly a password',
@@ -85,14 +86,16 @@ export class DataBase {
         Constants.PROJECT_TYPE_API
       ],
       class: 'card card-project card-project-random-password',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-react-random-password/'
     },
     {
       alt: 'Picture of an Interface for chat messenger',
       title: 'Chatbox',
       projectType: [Constants.PROJECT_TYPE_REACT, Constants.PORJECT_TYPE_HTML_CSS, Constants.PROJECT_TYPE_BOOTSTRAP],
       class: 'card card-project card-project-chat-box',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-dev.github.io-react-chat-box/'
     },
     {
       alt: 'Picture of an Interface for species classification',
@@ -104,7 +107,8 @@ export class DataBase {
         Constants.PROJECT_TYPE_API
       ],
       class: 'card card-project card-project-species',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-react-species-classification/'
     },
     {
       alt: 'Picture of the Simpson family',
@@ -116,21 +120,24 @@ export class DataBase {
         Constants.PROJECT_TYPE_API
       ],
       class: 'card card-project card-project-simpsons',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-react-simpsons/'
     },
     {
       alt: 'Picture of an interface to generate random groups',
       title: 'Random Groups Generator',
       projectType: [Constants.PROJECT_TYPE_REACT, Constants.PORJECT_TYPE_HTML_CSS, Constants.PROJECT_TYPE_BOOTSTRAP],
       class: 'card card-project card-project-random-group',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-react-random-group-generator/'
     },
     {
       alt: 'Picture of an interface that is a clone of Yelp website',
       title: 'Ravenous Yelp Clone',
       projectType: [Constants.PORJECT_TYPE_HTML_CSS, Constants.PROJECT_TYPE_REACT, Constants.PROJECT_TYPE_API],
       class: 'card card-project card-project-ravenous',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-react-ravenous/'
     },
     {
       alt: 'Picture of the interface from the website Unsplash',
@@ -142,14 +149,16 @@ export class DataBase {
         Constants.PROJECT_TYPE_API
       ],
       class: 'card card-project card-project-unsplash-clone',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-unsplash-clone/'
     },
     {
       alt: 'A snake game',
       title: 'Snake game',
       projectType: [Constants.PORJECT_TYPE_JAVASCRIPT],
       class: 'card card-project card-project-snake',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-snake-game/'
     },
     {
       alt: 'Picture from New York City',
@@ -161,21 +170,24 @@ export class DataBase {
         Constants.PROJECT_TYPE_BOOTSTRAP
       ],
       class: 'card card-project card-project-1980',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-1980-house-recordings/'
     },
     {
       alt: 'Picture of a canvas',
       title: 'Canvas',
       projectType: [Constants.PORJECT_TYPE_HTML_CSS],
       class: 'card card-project card-project-canvas-tag',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-dev.github.io-canvas-tag/'
     },
     {
       alt: 'Picture of a Burger',
       title: 'Gogi Burger',
       projectType: [Constants.PORJECT_TYPE_JAVASCRIPT, Constants.PORJECT_TYPE_HTML_CSS, Constants.PROJECT_TYPE_BOOTSTRAP],
       class: 'card card-project card-project-gogi-burger',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-gogi-burger/'
     },
     {
       alt: 'Picture of a Woman Smiling',
@@ -187,7 +199,8 @@ export class DataBase {
         Constants.PROJECT_TYPE_BOOTSTRAP
       ],
       class: 'card card-project card-project-laetitia-hypnose',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-laetitia-hypnose/'
     },
     {
       alt: 'Picture of the interface from the website Giphy',
@@ -199,7 +212,8 @@ export class DataBase {
         Constants.PROJECT_TYPE_API
       ],
       class: 'card card-project card-project-giphy-clone',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-giphy-clone/'
     },
     {
       alt: 'Picture of the interface to generate random quotes from Chuck Norris',
@@ -211,7 +225,8 @@ export class DataBase {
         Constants.PROJECT_TYPE_API
       ],
       class: 'card card-project card-project-chuck-norris-quotes',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-chuck-no-quotes/'
     },
     {
       alt: 'Picture of the interface to generate random quotes',
@@ -223,49 +238,48 @@ export class DataBase {
         Constants.PROJECT_TYPE_API
       ],
       class: 'card card-project card-project-random-quotes',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-random-quote/'
     },
-    // {
-    //   alt: 'Picture of a man djing',
-    //   title: 'PB DJ',
-    //   projectType: [Constants.PROJECT_TYPE_JQUERY, Constants.PORJECT_TYPE_HTML_CSS, Constants.PROJECT_TYPE_BOOTSTRAP],
-    //   class: 'card card-project card-project-philippe-beaulieu',
-    //   isShown: null
-    // },
     {
       alt: 'Picture of a map',
       title: 'World Bucket List',
       projectType: [Constants.PORJECT_TYPE_HTML_CSS, Constants.PROJECT_TYPE_BOOTSTRAP, Constants.PROJECT_TYPE_API],
       class: 'card card-project card-project-world-bucket-list',
-      isShown: null
+      isShown: null,
+      link: ''
     },
     {
       alt: 'Picture of a form',
       title: 'Form',
       projectType: [Constants.PORJECT_TYPE_HTML_CSS, Constants.PROJECT_TYPE_BOOTSTRAP, Constants.PROJECT_TYPE_PHP],
       class: 'card card-project card-project-form',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-form-php/'
     },
     {
       alt: 'Picture of five actresses',
       title: 'Top 5 Actresses',
       projectType: [Constants.PORJECT_TYPE_HTML_CSS, Constants.PROJECT_TYPE_JQUERY],
       class: 'card card-project card-project-top-five-actresses',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.githu.io-top-five-actresses/'
     },
     {
       alt: 'Picture of an interface to look for travels',
       title: 'Travel Agency',
       projectType: [Constants.PORJECT_TYPE_HTML_CSS],
       class: 'card card-project card-project-travel-agency',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-travel-agency/'
     },
     {
       alt: 'Picture of an interface that is showing forcast',
       title: 'Wanderlust Forecast',
       projectType: [Constants.PORJECT_TYPE_HTML_CSS, Constants.PORJECT_TYPE_JAVASCRIPT, Constants.PROJECT_TYPE_API],
       class: 'card card-project card-project-wanderlust',
-      isShown: null
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-wanderlust/'
     }
   ];
 

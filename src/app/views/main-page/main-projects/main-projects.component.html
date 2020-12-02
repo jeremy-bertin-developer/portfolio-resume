@@ -15,7 +15,7 @@
 
 <div class="row">
   <ng-container *ngFor="let project of projects; let i = index">
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center div-card-project" (click)="openProject(project.link)">
       <div id="projects{{ i }}" class="card mt-4 shadow-lg" [class]="project.class">
         <div class="card-body card-body-project d-flex justify-content-center align-items-center">
           <div

@@ -57,4 +57,8 @@ export class MainProjectsComponent implements OnInit {
     }
     this.projects = DataBase.projects;
   }
+
+  openProject(link: string): void {
+    window.open(link);
+  }
 }

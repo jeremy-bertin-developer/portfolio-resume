@@ -34,8 +34,12 @@
 }
 
 .card-project {
-  border-radius: 15px;
+  border-radius: 5px;
   border-style: none;
+}
+
+.card-project:hover {
+  cursor: pointer;
 }
 
 .card-project-youtube-clone {
