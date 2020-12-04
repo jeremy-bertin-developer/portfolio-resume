@@ -64,6 +64,14 @@ export class DataBase {
 
   public static projects: Project[] = [
     {
+      alt: 'Picture of a calculator',
+      title: 'NgCalculator',
+      projectType: [Constants.PROJECT_TYPE_ANGULAR, Constants.PORJECT_TYPE_HTML_CSS, Constants.PROJECT_TYPE_BOOTSTRAP],
+      class: 'card card-project card-project-ng-calculator',
+      isShown: null,
+      link: 'https://ng-calculator-4a592.web.app/'
+    },
+    {
       alt: 'Picture of a Youtube Browser Clone',
       title: 'Youtube Clone',
       projectType: [

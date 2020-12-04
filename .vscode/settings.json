@@ -7,5 +7,6 @@
     "prettier.trailingComma": "none",
     "editor.formatOnSave": true,
     "git.ignoreLimitWarning": true,
-    "github.gitAuthentication": false
+    "github.gitAuthentication": false,
+    "liveServer.settings.port": 5501
 }
