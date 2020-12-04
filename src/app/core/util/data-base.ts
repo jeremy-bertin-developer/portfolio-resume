@@ -182,6 +182,19 @@ export class DataBase {
       link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-developer.github.io-1980-house-recordings/'
     },
     {
+      alt: 'Picture of women that are back to the screen in Africa',
+      title: 'Together Women Can',
+      projectType: [
+        Constants.PORJECT_TYPE_JAVASCRIPT,
+        Constants.PROJECT_TYPE_JQUERY,
+        Constants.PORJECT_TYPE_HTML_CSS,
+        Constants.PROJECT_TYPE_BOOTSTRAP
+      ],
+      class: 'card card-project card-project-TWC',
+      isShown: null,
+      link: 'https://jeremy-bertin-developer.github.io/jeremy-bertin-dev.github.io-together-women-can/#home'
+    },
+    {
       alt: 'Picture of a canvas',
       title: 'Canvas',
       projectType: [Constants.PORJECT_TYPE_HTML_CSS],
