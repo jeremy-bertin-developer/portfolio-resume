@@ -64,6 +64,19 @@ export class DataBase {
 
   public static projects: Project[] = [
     {
+      alt: 'Picture of many different beers',
+      title: 'Beer Punk',
+      projectType: [
+        Constants.PROJECT_TYPE_ANGULAR,
+        Constants.PORJECT_TYPE_HTML_CSS,
+        Constants.PROJECT_TYPE_BOOTSTRAP,
+        Constants.PROJECT_TYPE_API
+      ],
+      class: 'card card-project card-project-ng-beer-punk',
+      isShown: null,
+      link: 'https://ng-beer-punk.web.app/'
+    },
+    {
       alt: 'Picture of buildings from Vienna',
       title: 'Clone Bank',
       projectType: [Constants.PROJECT_TYPE_ANGULAR, Constants.PORJECT_TYPE_HTML_CSS, Constants.PROJECT_TYPE_BOOTSTRAP],
